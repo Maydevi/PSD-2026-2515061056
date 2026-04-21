@@ -32,19 +32,22 @@ def main():
                         print("Input tidak valid, silakan masukkan angka!")
             print(f"Array sekarang: {a}")
         elif choice == 4:
-            index = int(input("Masukkan index yang ingin dicek (0-4): "))
-            if index == 0:
-                print(f"Nilai a[0] = {a[0]}")
-            elif index == 1:
-                print(f"Nilai a[1] = {a[1]}")
-            elif index == 2:
+            try:
+                index = int(input("Masukkan index yang ingin dicek (0-4): "))
+                if index == 0:
+                    print(f"Nilai a[0] = {a[0]}")
+                elif index == 1:
+                    print(f"Nilai a[1] = {a[1]}")
+                elif index == 2:
                     print(f"Nilai a[2] = {a[2]}")
-            elif index == 3:
+                elif index == 3:
                     print(f"Nilai a[3] = {a[3]}")
-            elif index == 4:
+                elif index == 4:
                     print(f"Nilai a[4] = {a[4]}")
-            else:
+                else:
                     print("Index tidak valid! Masukkan angka antara 0 dan 4.")
+            except ValueError:
+                print("Input tidak valid! Masukkan angka yang benar.")
         elif choice == 5:
             running = False
             print("Program selesai.")
