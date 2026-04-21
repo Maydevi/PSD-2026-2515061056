@@ -38,11 +38,11 @@ Pada baris 34-48 memeriksa nilai indeks satu per satu. Jika indeks antara 0-4, c
 <img width="509" height="212" alt="Cuplikan layar 2026-04-21 235425" src="https://github.com/user-attachments/assets/626bc24a-4072-4e2f-961a-341c9353ab1b" />
 
 
-<img width="908" height="448" alt="Cuplikan layar 2026-04-22 002227" src="https://github.com/user-attachments/assets/7e2f0770-81fb-475e-8711-a92e238f29b4" />
+<img width="885" height="393" alt="Cuplikan layar 2026-04-22 003010" src="https://github.com/user-attachments/assets/842ed788-9df6-4088-88c7-6a2464e5125c" />
 
 Pada baris 49-53, mengubah running menjadi False, sehingga loop while akan berhenti setelah iterasi ini. Lalu mencetak pesan selesai.
 <img width="578" height="182" alt="Cuplikan layar 2026-04-21 235551" src="https://github.com/user-attachments/assets/dca10408-cf70-4bc9-a54d-d4ba2689cf64" />
 
 
-Pada baris 55-56, memeriksa apakah file ini dijalankan langsung (bukan diimpor sebagai modul). Jika iya, maka fungsi main() dipanggil, sehingga program mulai berjalan.
+Pada baris 56-57, memeriksa apakah file ini dijalankan langsung (bukan diimpor sebagai modul). Jika iya, maka fungsi main() dipanggil, sehingga program mulai berjalan.
 
