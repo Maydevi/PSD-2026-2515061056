@@ -44,8 +44,6 @@ def main():
                     print(f"Nilai a[3] = {a[3]}")
                 elif index == 4:
                     print(f"Nilai a[4] = {a[4]}")
-                else:
-                    print("Index tidak valid! Masukkan angka antara 0 dan 4.")
             except ValueError:
                 print("Input tidak valid! Masukkan angka yang benar.")
         elif choice == 5:
