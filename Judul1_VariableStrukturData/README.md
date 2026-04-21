@@ -34,13 +34,13 @@ Pada baris 24-33,  menerima input dari user dan mengubahnya menjadi integer. Jik
 <img width="554" height="342" alt="Cuplikan layar 2026-04-21 235343" src="https://github.com/user-attachments/assets/6799f659-9c45-424a-ae86-c62caa086b70" />
 
 
-Pada baris 34-47, memeriksa nilai indeks satu per satu. Jika indeks antara 0-4, cetak nilai yang tersimpan di posisi tersebut. Jika di luar rentang, cetak pesan error.
+Pada baris 34-48 memeriksa nilai indeks satu per satu. Jika indeks antara 0-4, cetak nilai yang tersimpan di posisi tersebut. Jika di luar rentang, cetak pesan error.
 <img width="509" height="212" alt="Cuplikan layar 2026-04-21 235425" src="https://github.com/user-attachments/assets/626bc24a-4072-4e2f-961a-341c9353ab1b" />
 
 
 <img width="908" height="448" alt="Cuplikan layar 2026-04-22 002227" src="https://github.com/user-attachments/assets/7e2f0770-81fb-475e-8711-a92e238f29b4" />
 
-Pada baris 48-52, mengubah running menjadi False, sehingga loop while akan berhenti setelah iterasi ini. Lalu mencetak pesan selesai.
+Pada baris 49-53, mengubah running menjadi False, sehingga loop while akan berhenti setelah iterasi ini. Lalu mencetak pesan selesai.
 <img width="578" height="182" alt="Cuplikan layar 2026-04-21 235551" src="https://github.com/user-attachments/assets/dca10408-cf70-4bc9-a54d-d4ba2689cf64" />
 
 
