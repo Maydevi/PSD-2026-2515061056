@@ -28,7 +28,7 @@ Pada baris 20, id(a) adalah fungsi untuk melihat alamat memori tempat variabel a
 Pada baris 21-23,  program akan menampilkan alamat memori dari setiap kotak (indeks 0 sampai 4) dalam array a.
 <img width="515" height="286" alt="Cuplikan layar 2026-04-21 235007" src="https://github.com/user-attachments/assets/1f13990c-41bd-4228-8d22-0c0a5174d015" />
 
-<img width="914" height="653" alt="Cuplikan layar 2026-04-21 225304" src="https://github.com/user-attachments/assets/4771e3ae-3c32-4aec-a6d1-86beb663e48c" />
+<img width="991" height="659" alt="Cuplikan layar 2026-04-22 002207" src="https://github.com/user-attachments/assets/4bdd799a-1cf1-4764-8f52-fa2049d6fab6" />
 
 Pada baris 24-33,  menerima input dari user dan mengubahnya menjadi integer. Jika input bukan angka (misal huruf), maka terjadi ValueError, program mencetak pesan error lalu continue (kembali ke awal loop tanpa menjalankan kode di bawahnya).
 <img width="554" height="342" alt="Cuplikan layar 2026-04-21 235343" src="https://github.com/user-attachments/assets/6799f659-9c45-424a-ae86-c62caa086b70" />
@@ -38,7 +38,7 @@ Pada baris 34-47, memeriksa nilai indeks satu per satu. Jika indeks antara 0-4, 
 <img width="509" height="212" alt="Cuplikan layar 2026-04-21 235425" src="https://github.com/user-attachments/assets/626bc24a-4072-4e2f-961a-341c9353ab1b" />
 
 
-<img width="886" height="333" alt="Cuplikan layar 2026-04-21 225328" src="https://github.com/user-attachments/assets/50d92b8f-8d8e-444e-80ae-5dea24f77823" />
+<img width="908" height="448" alt="Cuplikan layar 2026-04-22 002227" src="https://github.com/user-attachments/assets/7e2f0770-81fb-475e-8711-a92e238f29b4" />
 
 Pada baris 48-52, mengubah running menjadi False, sehingga loop while akan berhenti setelah iterasi ini. Lalu mencetak pesan selesai.
 <img width="578" height="182" alt="Cuplikan layar 2026-04-21 235551" src="https://github.com/user-attachments/assets/dca10408-cf70-4bc9-a54d-d4ba2689cf64" />
