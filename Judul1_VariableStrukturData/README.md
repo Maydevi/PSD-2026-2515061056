@@ -46,3 +46,4 @@ Pada baris 49-53, mengubah running menjadi False, sehingga loop while akan berhe
 
 Pada baris 56-57, memeriksa apakah file ini dijalankan langsung (bukan diimpor sebagai modul). Jika iya, maka fungsi main() dipanggil, sehingga program mulai berjalan.
 
+link youtube: https://youtu.be/ApnCQNjlQ_Q
