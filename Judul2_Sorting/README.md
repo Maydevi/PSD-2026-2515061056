@@ -54,3 +54,13 @@ Pada baris 31, "bubble_sort(arr, n)" memanggil fungsi bubble sort untuk mengurut
 Pada baris 32-35, menampilkan hasil urutan (besar ke kecil) dalam satu baris.
 
 pada baris 38-39, kode ini artinya yaitu jika file ini dijalankan langsung (bukan dipanggil dari file lain), maka jalankan fungsi main().
+
+**Penjelasan Output**
+<img width="1367" height="251" alt="Cuplikan layar 2026-04-30 230704" src="https://github.com/user-attachments/assets/441ecf3e-781a-4ca4-b0af-a50b7bb46150" />
+pertama akan menampilkan perintah masukin banyaknya praktikan
+<img width="1356" height="232" alt="Cuplikan layar 2026-04-30 230719" src="https://github.com/user-attachments/assets/e9f64ff2-837e-48f8-9c62-997447bba979" />
+lalu masukkan nilai-nilai praktikan
+<img width="1222" height="268" alt="Cuplikan layar 2026-04-30 230744" src="https://github.com/user-attachments/assets/6f78a5ec-9d0a-4459-973f-8e563f0b3b64" />
+hasilnya akan menampilkan array nilai yang belum terurut dan array nilai yang sudah berurutan secara descending
+
+link yt:
