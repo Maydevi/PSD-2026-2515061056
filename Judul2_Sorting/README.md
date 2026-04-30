@@ -63,4 +63,4 @@ lalu masukkan nilai-nilai praktikan
 <img width="1222" height="268" alt="Cuplikan layar 2026-04-30 230744" src="https://github.com/user-attachments/assets/6f78a5ec-9d0a-4459-973f-8e563f0b3b64" />
 hasilnya akan menampilkan array nilai yang belum terurut dan array nilai yang sudah berurutan secara descending
 
-link yt:
+link yt:https://youtu.be/jqZw4zBdOms
