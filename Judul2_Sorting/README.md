@@ -7,8 +7,11 @@ Algoritma yang diterapkan adalah Bubble Sort. Algoritma ini bekerja dengan cara 
 <img width="741" height="629" alt="Cuplikan layar 2026-04-30 200736" src="https://github.com/user-attachments/assets/07ef2830-1403-4998-9110-e9130acd7fd3" />
 
 Pada baris 1, mendefinisikan fungsi bernama tukar yang menerima 3 masukan: array arr, posisi i, posisi j.
+
 Pada baris 2, simpan nilai di posisi i ke variabel sementara temp.
+
 Pada baris 3, ganti nilai di posisi i dengan nilai di posisi j.
+
 Pada baris 4, ganti nilai di posisi j dengan nilai yang tadi disimpan di temp. Hasilnya: nilai di i dan j bertukar tempat.
 Pada baris 7, fungsi untuk mengurutkan array arr sepanjang n elemen.
 Pada baris 8, ulangi sebanyak n-1 kali (setiap putaran akan menempatkan satu angka terbesar di akhir).
