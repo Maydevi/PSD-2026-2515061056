@@ -51,7 +51,9 @@ Pada baris ke-39 sampai baris ke-40, "if __name__ == "__main__": main():" Baris 
 <img width="815" height="121" alt="Cuplikan layar 2026-05-06 010724" src="https://github.com/user-attachments/assets/fb4843a8-d7ec-42a5-9243-96d43ff5ef0e" />
 Pada output pencarian angka 2 dalam list [2, 5, 8, 12, 15, 18, 22, 25] menggunakan algoritma Binary Search dilakukan dengan membagi area pencarian menjadi dua secara berulang: 
 Pada iterasi pertama, titik tengah (m) berada di indeks 3 (nilai 12), dan karena 12 > 2, area pencarian dipersempit ke sisi kiri dengan menggeser batas kanan (r) ke indeks 2 
+
 Pada iterasi kedua, titik tengah berada di indeks 1 (nilai 5), dan karena 5 > 2, area pencarian dipersempit kembali ke sisi kiri dengan menggeser r ke indeks 0 
+
 Akhirnya, pada iterasi ketiga, titik tengah berada tepat di indeks 0 (nilai 2), sehingga target ditemukan di indeks 0 dan program mencetak hasil bahwa kursi tersebut berada di "baris depan" karena indeks 0 memenuhi kondisi logika 0 <= pos <= 3.
 
 Link youtube:
