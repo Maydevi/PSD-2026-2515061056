@@ -16,7 +16,7 @@ Pada baris ke-4, "pos = -1" yaitu inisialisasi -1 dengan pos yan bearti "data be
 
 Pada baris ke-5, "while l <= r:" yaitu pengulangan yang terus berjalan jika l lebih kecil sama dengan r.
 
-Pada baris ke-6, "m = l + (r - l) // 2" ini adalah cara menghitunh nilai tengah atau median.
+Pada baris ke-6, "m = l + (r - l) // 2" ini adalah cara menghitung nilai tengah atau median.
 
 Pada baris ke-7, memiliki kondisi "if arr[m] == target:" yang artinya jika nilai di indeks m sama dengan angka yang dicari, kita simpan posisi m ke pos dan segera berhenti (break).
 
