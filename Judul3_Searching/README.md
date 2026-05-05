@@ -35,6 +35,7 @@ Pada baris ke-20 sampai baris ke-21, untuk menyimpan teks (tipe data string) ke 
 Pada baris ke-22, menaampilkan data kursi, yang ada di array.
 
 Pada baris ke-23, while true adalah pengulangan yang terus terjadi ketika nilai inputannya benar. User akan diminta untuk menginputkan nomor kursi yang ingin dicari sebagai target, apabila yang di masukan bukan angka maka menampilkan "Input tidak valid, silakan masukkan angka!"
+
 try dan except ValueError: Ini adalah standar error handling agar program tidak crash jika pengguna memasukkan huruf atau simbol, bukan angka.
 
 Pada baris ke-29, "pos = binary_search(data, n, target):" yaitu memanggil fungsi pencarian yang kita bahas di atas.
