@@ -19,7 +19,7 @@ def main():
     n = len(data)
     baris_depan = "Baris depan"
     baris_belakang = "Baris belakang"
-    print(f"Array: {data}")
+    print(f"Data nomor kursi: {data}")
     while True:
         try:
             target = int(input("Masukkan nomor kursi yang ingin dicari: "))
