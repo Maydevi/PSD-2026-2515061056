@@ -17,8 +17,6 @@ def binary_search(arr, n, target):
 def main():
     data = [2, 5, 8, 12, 15, 18, 22, 25]
     n = len(data)
-    baris_depan = "Baris depan"
-    baris_belakang = "Baris belakang"
     print(f"Data nomor kursi: {data}")
     while True:
         try:
