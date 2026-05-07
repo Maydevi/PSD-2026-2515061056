@@ -56,4 +56,4 @@ Pada iterasi kedua, titik tengah berada di indeks 1 (nilai 5), dan karena 5 > 2,
 
 Akhirnya, pada iterasi ketiga, titik tengah berada tepat di indeks 0 (nilai 2), sehingga target ditemukan di indeks 0 dan program mencetak hasil bahwa kursi tersebut berada di "baris depan" karena indeks 0 memenuhi kondisi logika 0 <= pos <= 3.
 
-Link youtube:
+Link youtube:https://youtu.be/QfFkL8DTK30
