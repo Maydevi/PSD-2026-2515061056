@@ -102,4 +102,23 @@ Baris ke-68, "pilih = int(input("Pilih: "))" Ini untuk menerima input angka pili
 Baris ke-69 dan baris ke-70, "except ValueError:" Ini untuk menangkap error, sehingga program tidak langsung mati.
 
 Baris ke-78-87: Ini adalah logika percabangan untuk menjalankan fungsi (tambah, layani, lihat) sesuai dengan angka yang ditekan pengguna.
+
+
+**OUTPUT**
+<img width="514" height="397" alt="Cuplikan layar 2026-05-14 212314" src="https://github.com/user-attachments/assets/1b096567-89e7-4913-b600-9015fb5ae127" />
+<img width="535" height="424" alt="Cuplikan layar 2026-05-14 212324" src="https://github.com/user-attachments/assets/55d77f4a-083c-4fe4-a2f6-247aa6011b50" />
+
+Ketika program di jalankan akan memunculkan menu pilihan, lalu pengguna akan diminta untuk memasukkan pilihannnya sebagai inputan.
+
+Jika pilih 1, maka pengguna di minta memasukkan nama pasien, lalu akan muncul teks bahwa penambahan nama pasien tersebut berhasil
+
+Jika pilih 2, maka artinya pasien telah dilayani maka akan dihapus dari antrian atau array
+
+jika pilih 3, maka akan menampilkan nama pasien yang mengantri paling depan tanpa dihapus
+
+Jika pilih 4, maka akan menampilkan sisa antrian pasien yang belum dilayani
+
+jila pilih 5, maka program akan selesai dan berhenti berjalan
+kemudian program akan terus berulang sampai pengguna memasukkan pilihan 5
+
 Link Youtube: https://youtu.be/jLz1S5LZoo4
