@@ -3,6 +3,7 @@
 Program ini berfungsi sebagai sistem manajemen antrian pasien di sebuah rumah sakit secara digital. Pengguna dapat menambahkan nama pasien baru ke dalam daftar, menghapus pasien yang telah selesai dilayani, serta melihat siapa pasien yang berada di urutan paling depan tanpa menghapusnya. Program ini memastikan proses pelayanan berjalan tertib sesuai urutan kedatangan, sehingga meminimalisir kesalahan dalam pemanggilan pasien.
 
 Struktur data yang diterapkan dalam kode ini adalah Circular Queue (Antrian Melingkar) berbasis Array. Algoritma ini menggunakan prinsip FIFO (First-In, First-Out), di mana pasien yang pertama kali mendaftar akan menjadi yang pertama dilayani. Penggunaan logika circular (menggunakan operator modulo %) bertujuan untuk mengoptimalkan penggunaan memori. Ketika posisi akhir array tercapai, indeks akan kembali berputar ke posisi awal selama masih ada ruang kosong, sehingga mencegah terjadinya pemborosan memori yang sering terjadi pada antrian linear statis.
+
 <img width="649" height="497" alt="Cuplikan layar 2026-05-13 135336" src="https://github.com/user-attachments/assets/d72132c5-5f7a-468d-9eaf-07c6c40ace1b" />
 
 Baris ke-1,"class QueueArray:" Ini adalah deklarasi sebuah kelas bernama QueueArray. Kelas ini dirancang untuk membungkus semua logika dan data yang berkaitan dengan antrian (seperti menambah, menghapus, dan mengecek isi antrian) ke dalam satu unit.
@@ -58,7 +59,7 @@ Baris ke-31, "if self.front_idx == self.rear_idx:" Ini untuk mengecek apakah pas
 
 Baris ke-32 dan ke-33: ketika kondisi pada baris ke-31 terpenuhi maka posisi front dan rear kembali ke -1 karena antrian menjadi kosong
 
-I<img width="539" height="454" alt="Cuplikan layar 2026-05-13 135349" src="https://github.com/user-attachments/assets/7bea04e1-9012-42e6-b542-8f0c4576f6d0" />
+<img width="539" height="454" alt="Cuplikan layar 2026-05-13 135349" src="https://github.com/user-attachments/assets/7bea04e1-9012-42e6-b542-8f0c4576f6d0" />
 
 Baris ke-35, self.front_idx = (self.front_idx + 1) % self.MAXN: Ini untuk menggeser posisi depan ke orang berikutnya secara melingkar setelah orang sebelumnya selesai.
 
@@ -105,7 +106,9 @@ Baris ke-78-87: Ini adalah logika percabangan untuk menjalankan fungsi (tambah, 
 
 
 **OUTPUT**
+
 <img width="514" height="397" alt="Cuplikan layar 2026-05-14 212314" src="https://github.com/user-attachments/assets/1b096567-89e7-4913-b600-9015fb5ae127" />
+
 <img width="535" height="424" alt="Cuplikan layar 2026-05-14 212324" src="https://github.com/user-attachments/assets/55d77f4a-083c-4fe4-a2f6-247aa6011b50" />
 
 Ketika program di jalankan akan memunculkan menu pilihan, lalu pengguna akan diminta untuk memasukkan pilihannnya sebagai inputan.
