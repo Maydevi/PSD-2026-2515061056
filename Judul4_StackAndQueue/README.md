@@ -14,7 +14,7 @@ Baris ke-2, "def **init**(self, max_size=100):"
 
 "self:" Parameter ini merujuk pada objek itu sendiri agar variabel di dalamnya bisa diakses oleh metode lain dalam kelas yang sama.
 
-"max_size=100:" Ini adalah parameter dengan nilai default. Jika Anda tidak menentukan ukuran saat membuat objek, maka kapasitas maksimal antrian secara otomatis diset menjadi 100.
+"max_size=100:" Ini adalah parameter dengan nilai default. Jika tidak menentukan ukuran saat membuat objek, maka kapasitas maksimal antrian secara otomatis diset menjadi 100.
 
 Baris ke-3, "self.MAXN = max_size" ini untuk menyimpan angka batas maksimal pasien yang bisa ditampung ke dalam variabel MAXN.
 
